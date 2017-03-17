@@ -26,15 +26,7 @@ class JHProgressHUD: UIView
     var footerColor : UIColor
     var backGroundColor : UIColor
     var loaderColor : UIColor
-    
-    
-    class var sharedInstance: PostOptions {
-        struct Singleton {
-            static let instance = PostOptions()
-        }
-        return Singleton.instance
-    }
-    
+        
     
     class var sharedHUD : JHProgressHUD {
         struct Static {
